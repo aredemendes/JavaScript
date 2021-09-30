@@ -16,15 +16,35 @@
     </style>
 </head>
 <body>
-    <h1>Tratamento de Daods</h1>
+    <h1>Tratamento de Dados</h1>
     
     <script>
-        var n1 = window.prompt('Digite um número: '); //String
-        var n2 = window.prompt('Digite outro número: '); //String
+        var n1 = Number(window.prompt('Digite um número: ')); //String
+        var n2 = Number(window.prompt('Digite outro número: ')); //String
         var s = n1 + n2;
-        window.alert('A soma dos números é: ' + s);
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`);
     </script>
-    
+    <p>Esse foi o código usaso nesta aula.</p>
+    <p>
+        <pre>
+            <code>
+                var n1 = Number(window.prompt('Digite um número: ')); //String
+                var n2 = Number(window.prompt('Digite outro número: ')); //String
+                var s = n1 + n2;
+                window.alert('A soma dos números é: ' + s);
+            </code>
+        </pre>
+        Também pode ser esse.
+        <pre>
+            <code>
+                var n1 = Number.parseInt(window.prompt('Digite um número: ')); //String
+                var n2 = Number.parseInt(window.prompt('Digite outro número: ')); //String
+                var s = n1 + n2;
+                window.alert('A soma dos números é: ' + s);
+                window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+            </code>
+        </pre>
+    </p>
     
 </body>
 </html>
